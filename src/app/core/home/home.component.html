@@ -1,0 +1,15 @@
+<carousel
+    [interval]="slideInterval"
+    >
+    <slide *ngFor="let image of images">
+        <img src="{{image.url}}" alt="{{image.title}}">
+
+        <div class="carousel-caption" style="vertical-align: middle;">
+            <div class="full-width text-center">
+                <p class="title">{{image.title}}</p>
+                <p class="desc">{{image.desc}}</p>
+            </div>
+        </div>
+
+    </slide>
+</carousel>

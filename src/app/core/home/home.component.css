@@ -1,0 +1,37 @@
+.carousel-caption {
+    width: 700px ;
+    margin-left: auto ;
+    margin-right: auto ;    
+    vertical-align: middle;
+}
+
+
+.full-width {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+}
+
+.title {
+    font-size: 800%;
+    font-family: Caflisch Script Pro;
+    font-style: italic;
+    font-weight: bold;
+}
+ .desc {
+     font-size: 200%;
+ }

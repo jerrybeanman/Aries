@@ -1,0 +1,26 @@
+.title {
+    font-size: 800%;
+    font-family: Caflisch Script Pro;
+    color: rosybrown;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.desc {
+    color: #f2b87b;
+    font-size: 150%;
+    font-style: italic;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#ffd43a;
+  height: 1px;
+}
+
+.card {
+    border-color: black;
+}
