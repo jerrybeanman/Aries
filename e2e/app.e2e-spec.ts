@@ -1,10 +1,10 @@
-import { AriesPage } from './app.po';
+import { WebPage } from './app.po';
 
-describe('aries App', function() {
-  let page: AriesPage;
+describe('web App', function() {
+  let page: WebPage;
 
   beforeEach(() => {
-    page = new AriesPage();
+    page = new WebPage();
   });
 
   it('should display message saying app works', () => {
