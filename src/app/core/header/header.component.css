@@ -55,14 +55,12 @@ img {
 	width: 0;
 }
 
-.btn:activ {
-    outline: none !important;
-    border-right: 100px solid #f2dfa2 !important;  
-	border-top: 0px solid transparent !important;
-	border-left: 0px solid transparent !important;
-	border-bottom: 50px solid transparent !important;
-	height: 200px !important;
-	width: 0 !important;
+.btn:active {
+    border-right: 100px solid #f2dfa2;  
+	border-bottom: 50px solid transparent;
+	height: 200px;
+	width: 0;
+
 }
 
 .btn:hover {

@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
 
     ngOnInit() { 
         $(".btn-group > .btn").click(function(){
-           $(this).addClass("activ").siblings().removeClass("activ");
+           $(this).addClass("hover").siblings().removeClass("active");
        });
     }
 }
