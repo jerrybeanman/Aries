@@ -21,6 +21,7 @@ import {
 
 import { ServicesModule } from './components';
 import { AgmCoreModule } from 'angular2-google-maps/core';
+import { Ng2PageScrollModule } from 'ng2-page-scroll';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
     MaterialModule.forRoot(),
     CarouselModule.forRoot(),
     AlertModule.forRoot(),
+    Ng2PageScrollModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBeB7mBEaRZmVlzWYi3XKGCJ2p3K__YNDw'
     }),

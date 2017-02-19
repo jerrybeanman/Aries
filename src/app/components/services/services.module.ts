@@ -1,3 +1,4 @@
+import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { FlexDirective } from './flex.directive';
 import { FormsModule } from '@angular/forms';
 import { SharedModule } from './../../shared.module';
@@ -13,7 +14,8 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
         SharedModule,
         FormsModule,
         Angular2ImageGalleryModule,
-        AgmCoreModule
+        AgmCoreModule,
+        Ng2PageScrollModule
     ],
     exports: [
         FlexDirective,

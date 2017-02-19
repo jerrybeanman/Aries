@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
   ) {
     this.slideIndex = 1;
     this.slideWrap = true;
-    this.slideInterval = 1500;
+    this.slideInterval = 1500000;
     this.slidePause = "hover";
     this.slideNoTransition = false;
     this.extraSlides = false;

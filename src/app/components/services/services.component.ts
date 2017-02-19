@@ -1,5 +1,6 @@
 import { GalleryComponent } from 'angular2-image-gallery';
 import { Component, ViewChild, OnInit } from '@angular/core';
+import {PageScrollConfig} from 'ng2-page-scroll';
 
 @Component({
     selector: 'services',
@@ -7,9 +8,9 @@ import { Component, ViewChild, OnInit } from '@angular/core';
     styleUrls: ['services.component.css']
 })
 export class ServicesComponent implements OnInit {
-     @ViewChild(GalleryComponent) a : GalleryComponent; 
 
-    constructor() { }
+    constructor() { 
+    }
 
     ngOnInit() { 
     }

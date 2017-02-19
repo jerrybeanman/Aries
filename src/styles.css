@@ -36,9 +36,11 @@ md-button-toggle-group {
     width: 30px !important;
     height : 30px !important;
     background-color: #d1b688 !important;
+    border: 3px solid white !important;
 }
 
 .carousel-indicators li {
     width: 30px !important;
     height : 30px !important;
+    border: 3px solid white !important;
 }

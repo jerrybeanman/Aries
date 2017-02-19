@@ -60,10 +60,10 @@ img {
 	width: 0;
 }
 
-.btn p{
+.btn a{
     font-size: 18px;
     color: rosybrown;
-    padding:80px 30px 0 40px;
+    padding:200px 30px 30px;
 }
 
 
