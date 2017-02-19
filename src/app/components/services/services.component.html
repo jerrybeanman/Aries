@@ -69,7 +69,8 @@
 <div style=" margin-top: 5em; margin-left: 15em; margin-right: 15em;">
     <gallery 
         [flexBorderSize]="4" 
-        [flexImageSize]="7" >
+        [flexImageSize]="7" 
+        (viewerChange)="open($event)">
     </gallery>
 </div>
 

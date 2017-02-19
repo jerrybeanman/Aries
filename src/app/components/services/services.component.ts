@@ -14,4 +14,7 @@ export class ServicesComponent implements OnInit {
 
     ngOnInit() { 
     }
+
+    public open (e : Object) {
+    }
 }

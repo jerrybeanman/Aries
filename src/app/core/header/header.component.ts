@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+let $ = require('../../../../node_modules/jquery/dist/jquery.min.js');
+
 @Component({
     selector: 'header',
     templateUrl: 'header.component.html',
@@ -8,5 +10,9 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
     constructor() { }
 
-    ngOnInit() { }
+    ngOnInit() { 
+        $(".btn-group > .btn").click(function(){
+           $(this).addClass("activ").siblings().removeClass("activ");
+       });
+    }
 }

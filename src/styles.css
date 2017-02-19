@@ -13,7 +13,7 @@
 }
 
 .image.active {
-    background-size: auto !important;
+    background-size: 800px !important;
 }
 .buttonContainer {
     top: 200px !important;
@@ -35,12 +35,15 @@ md-button-toggle-group {
 .carousel-indicators .active {
     width: 30px !important;
     height : 30px !important;
-    background-color: #d1b688 !important;
-    border: 3px solid white !important;
+    margin: 5px !important;
+    background-color: #fce683!important;
+    border-radius: 15px !important;
 }
 
 .carousel-indicators li {
     width: 30px !important;
     height : 30px !important;
-    border: 3px solid white !important;
+    margin: 5px !important;
+    background-color: white!important;
+    border-radius: 15px !important;
 }
