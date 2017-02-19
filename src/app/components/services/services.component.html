@@ -5,34 +5,95 @@
 
 <hr />
 
-<div class="row" flex>
-    <md-card flex="50">
-        <md-card-title>Packages for Him</md-card-title>
+<div style="display: flex; margin-bottom: 3em; margin-top: 3em;">
+    <md-card flex="40" style=" margin-right: 1.5em; margin-left: 20em; margin-right: 20em;">
+        <md-card-title>{{ 'Massages' | uppercase }}</md-card-title>
         <md-card-content>
             <p>This is supporting text.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
         </md-card-content>
 
-        <md-card-actions>
-            <button md-button>LIKE</button>
-            <button md-button>SHARE</button>
+        <md-card-actions class="text-right">
+            <button md-raised-button>
+               Read More 
+            </button>
         </md-card-actions>
 
     </md-card>
-    <md-card flex="50">
-        <md-card-title>Packages for Her</md-card-title>
+ 
+</div>
+
+<div style="display: flex; margin-bottom: 3em; margin-top: 3em;">
+    <md-card flex="40" style="margin-right: 1.5em; margin-left: 20em;">
+        <md-card-title>{{ 'Rates' | uppercase }}</md-card-title>
         <md-card-content>
             <p>This is supporting text.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
         </md-card-content>
 
-        <md-card-actions>
-            <button md-button>LIKE</button>
-            <button md-button>SHARE</button>
+        <md-card-actions class="text-right">
+            <button md-raised-button >
+               Read More 
+            </button>
+        </md-card-actions>
+
+    </md-card>
+    <md-card flex="40" style="margin-left: 1.5em; margin-right: 20em;">
+        <md-card-title> {{ 'Packages' | uppercase }}</md-card-title>
+        <md-card-content>
+            <p>This is supporting text.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+        </md-card-content>
+
+        <md-card-actions class="text-right">
+            <button md-raised-button >
+               Read More 
+            </button>
         </md-card-actions>
 
     </md-card>
 
 </div>
+
+<!-- Gallery -->
+<div class="full-width text-center">
+    <p class="title">Gallery</p>
+    <p class="desc">Curabitur ut turpis vehicula, tristique massa fringilla, pulvinar velit. Nullam quis magna justo.</p>
+</div>
+
+<hr />
+
+<div style=" margin-top: 5em; margin-left: 15em; margin-right: 15em;">
+    <gallery 
+        [flexBorderSize]="4" 
+        [flexImageSize]="7" >
+    </gallery>
+</div>
+
+
+
+<!-- Contacts -->
+<div class="full-width text-center">
+    <p class="title">Contacts</p>
+    <p class="desc">
+        2760 W Broadway, Vancouver, BC, V6K 4M2
+        <md-icon style="font-style: italic; font-weight: bold; padding-top: 0.3em; color: orange;">phone</md-icon>
+            (604)-779-5353
+    </p>
+</div>
+
+<hr />
+
+<div class="map">
+    <sebm-google-map 
+        style=" margin-left: auto;margin-right: auto;display: block;"
+        [latitude]="51.678418" [longitude]="7.809007" [zoom]="18">
+        <sebm-google-map-marker [latitude]="51.678418" [longitude]="7.809007"></sebm-google-map-marker>
+    </sebm-google-map>
+</div>
+
+
+

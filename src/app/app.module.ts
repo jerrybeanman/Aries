@@ -20,6 +20,7 @@ import {
         AlertModule }             from 'ng2-bootstrap';
 
 import { ServicesModule } from './components';
+import { AgmCoreModule } from 'angular2-google-maps/core';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,9 @@ import { ServicesModule } from './components';
     MaterialModule.forRoot(),
     CarouselModule.forRoot(),
     AlertModule.forRoot(),
-
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBeB7mBEaRZmVlzWYi3XKGCJ2p3K__YNDw'
+    }),
     HomeModule,
     HeaderModule,
     ServicesModule,

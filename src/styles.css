@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+@import '~https://fonts.googleapis.com/icon?family=Material+Icons';
+
+.imageContainer[_ngcontent-sqq-40] .image.active[_ngcontent-sqq-40] {
+    position: absolute;
+    visibility: visible;
+    background-repeat: no-repeat;
+    background-size: default !important;
+    background-position: center;
+    margin: auto;
+    opacity: 1;
+}
+
+.image.active {
+    background-size: auto !important;
+}
+.buttonContainer {
+    top: 200px !important;
+    right: 100px!important;
+}
+.action.close {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.menuButton {
+    right: 100px !important;
+}
+
+md-button-toggle-group {
+    top: 200px !important;
+}
+
+.carousel-indicators .active {
+    width: 30px !important;
+    height : 30px !important;
+    background-color: #d1b688 !important;
+}
+
+.carousel-indicators li {
+    width: 30px !important;
+    height : 30px !important;
+}

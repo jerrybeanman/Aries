@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { GalleryComponent } from 'angular2-image-gallery';
+import { Component, ViewChild, OnInit } from '@angular/core';
 
 @Component({
     selector: 'services',
@@ -6,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['services.component.css']
 })
 export class ServicesComponent implements OnInit {
+     @ViewChild(GalleryComponent) a : GalleryComponent; 
+
     constructor() { }
 
-    ngOnInit() { }
+    ngOnInit() { 
+    }
 }
