@@ -9,18 +9,18 @@ export class ImageService {
     public getImages() : Image[] {
         let images: Image[] = [
             { 
-                "title": "We are first", 
-                "desc": "Morbi imperdiet bibendum justo eget efficitur.",
+                "title": "Welcome to Aries Spa", 
+                "desc": "Perfect place for women and men who seek stress relief and relaxation",
                 "url": "assets/images/first.jpg" 
             },
             { 
-                "title": "We are second", 
-                "desc": "Maecenas tristique hendrerit sem non condimentum.",
+                "title": "Welcome to Aries Spa", 
+                "desc": "Urban spa destination in Vancouver with a clean and safe envrionment",
                 "url": "assets/images/second.jpg" 
             },
             { 
-                "title": "We are third", 
-                "desc": "Aliquam rutrum sem scelerisque, imperdiet ipsum ac, faucibus quam.",
+                "title": "Welcome to Aries Spa", 
+                "desc": "Profesionally trained massage therapists dedicated to your experience",
                 "url": "assets/images/third.jpg" 
             }
         ];

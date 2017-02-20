@@ -1,6 +1,6 @@
 <div class="full-width text-center" id="services">
     <p class="title">Services</p>
-    <p class="desc">Curabitur ut turpis vehicula, tristique massa fringilla, pulvinar velit. Nullam quis magna justo.</p>
+    <p class="desc">We provide a wide variety of massages with competitive pricing and exclusive packages</p>
 </div>
 
 <hr />
@@ -8,37 +8,34 @@
 <div style="display: flex; margin-bottom: 3em; margin-top: 3em;">
     <md-card flex="40" style=" margin-right: 1.5em; margin-left: 20em; margin-right: 20em;">
         <md-card-title>{{ 'Massages' | uppercase }}</md-card-title>
-        <md-card-content>
-            <p>This is supporting text.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+        <md-card-content style="text-align: center; padding-left: 0.1em;">
+            <h4>Exceptional customer service provided by our well trained staff</h4>
+            <table style="width:100%">
+                <tr>
+                    <td>Sport Massage</td>
+                    <td>Lomi Lomi</td>
+                    <td>Aromatherapy</td> 
+                </tr>
+                <tr>
+                    <td>Swedish Massage</td> 
+                    <td>Japanese Shiatsu</td>
+                    <td>Foot Reflexology</td> 
+                </tr>
+            </table>
         </md-card-content>
-
-        <md-card-actions class="text-right">
-            <button md-raised-button>
-               Read More 
-            </button>
-        </md-card-actions>
-
     </md-card>
  
 </div>
 
 <div style="display: flex; margin-bottom: 3em; margin-top: 3em;">
     <md-card flex="40" style="margin-right: 1.5em; margin-left: 20em;">
-        <md-card-title>{{ 'Rates' | uppercase }}</md-card-title>
+        <md-card-title>{{ 'Pricing &#38; hours' | uppercase }}</md-card-title>
         <md-card-content>
-            <p>This is supporting text.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+            <h3>$60/hr</h3>
+            <p>
+                
+            </p>
         </md-card-content>
-
-        <md-card-actions class="text-right">
-            <button md-raised-button >
-               Read More 
-            </button>
-        </md-card-actions>
-
     </md-card>
     <md-card flex="40" style="margin-left: 1.5em; margin-right: 20em;">
         <md-card-title> {{ 'Packages' | uppercase }}</md-card-title>
@@ -48,11 +45,6 @@
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
         </md-card-content>
 
-        <md-card-actions class="text-right">
-            <button md-raised-button >
-               Read More 
-            </button>
-        </md-card-actions>
 
     </md-card>
 
@@ -81,15 +73,19 @@
     <p class="title">Contacts</p>
     <p class="desc">
         2760 W Broadway, Vancouver, BC, V6K 4M2
-        <md-icon style="font-style: italic; font-weight: bold; padding-top: 0.3em; color: orange;">phone</md-icon>
-            (604)-779-5353
     </p>
+    <p class="desc" style="font-style: italic;">
+        <md-icon>phone</md-icon>
+        (778)-859-4192
+    <p>
+
 </div>
 
 <hr />
 
 <div class="map">
     <sebm-google-map 
+        *ngIf="!isOpened"
         style=" margin-left: auto;margin-right: auto;display: block;"
         [latitude]="51.678418" [longitude]="7.809007" [zoom]="18">
         <sebm-google-map-marker [latitude]="51.678418" [longitude]="7.809007"></sebm-google-map-marker>
