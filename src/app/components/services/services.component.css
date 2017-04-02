@@ -7,13 +7,13 @@
 }
 
 .desc {
-    color: #f2b87b;
+    color: #E6933C;
     font-size: 200%;
     font-style: italic;
 }
 
 md-card-content {
-    font-size: 120%;
+    font-size: 150%;
     margin-top: 0.1em;
     color: #787878;
 }
@@ -52,7 +52,7 @@ button {
 md-card-title {
     font-size: 300%;
     font-family: 'Times New Roman', Times, serif;
-    color: pink;
+    color: #F589BB;
 }
 
 .sebm-google-map-container {
@@ -62,7 +62,7 @@ md-card-title {
 
 
 .map {
-    margin-top: 5em;
+    margin-top: 3em;
     margin-bottom: 5em;
 }
 
@@ -71,5 +71,5 @@ th {
 }
  h4{
      font-style: italic;
-     color: pink;
+     color: #F589BB;
  }

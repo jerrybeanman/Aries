@@ -28,53 +28,74 @@
 </div>
 
 <div style="display: flex; margin-bottom: 3em; margin-top: 3em;">
-    <md-card flex="40" style="margin-right: 1.5em; margin-left: 20em;">
+    <md-card flex="50" style="margin-right: 1.5em; margin-left: 20em;">
         <md-card-title>{{ 'Pricing &#38; hours' | uppercase }}</md-card-title>
-        <md-card-content style="padding-left: 2em; padding-right: 2em;">
+        <md-card-content style="padding-left: 0.5em; padding-right: 2em;">
             <p style="font-style: italic; margin-top: 0.5em; text-align: center; color: #9b9b9b">*Latest booking at 7:30PM</p>
             <div style="display: flex;">
 
-                <h3 style="font-weight: bold; margin-top: 2em; margin-left: 1em;">$60/hr</h3>
+                <table style="font-weight: bold; margin-top: 0em; margin-left: 2em;">
+                    <tr>
+                        <td>
+                            <h3>$40/30mins</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>$50/45mins</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>$60/60mins</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>$90/90mins</h3>
+                        </td>
+                    </tr>
+                </table>
 
-                <table style="margin-left: 5em;">
-                    <tr>
+                <table style="margin-left: 2em; margin-top: 0.8em;">
+                    <tr  [style.background-color]="getColorByDayOfWeek(1)">
                         <td>Monday:</td> 
-                        <td>11AM-9PM</td> 
+                        <td>10:30AM-9PM</td> 
                     </tr>
-                    <tr>
+                    <tr  [style.background-color]="getColorByDayOfWeek(2)">
                         <td>Tuesday:</td> 
-                        <td>11AM-9PM</td> 
+                        <td>10:30AM-9PM</td> 
                     </tr>
-                    <tr>
+                    <tr  [style.background-color]="getColorByDayOfWeek(3)">
                         <td>Wednesday:</td> 
-                        <td>11AM-9PM</td> 
+                        <td>10:30AM-9PM</td> 
                     </tr>
-                    <tr>
+                    <tr  [style.background-color]="getColorByDayOfWeek(4)">
                         <td>Thursday:</td> 
-                        <td>11AM-9PM</td> 
+                        <td>10:30AM-9PM</td> 
                     </tr>
-                    <tr>
+                    <tr  [style.background-color]="getColorByDayOfWeek(5)">
                         <td>Friday:</td> 
-                        <td>11AM-9PM</td> 
+                        <td>10:30AM-9PM</td> 
                     </tr>
-                    <tr>
+                    <tr  [style.background-color]="getColorByDayOfWeek(6)">
                         <td>Saturday:</td> 
-                        <td>11AM-9PM</td> 
+                        <td>10:30AM-9PM</td> 
                     </tr>
-                    <tr>
+                    <tr  [style.background-color]="getColorByDayOfWeek(7)">
                         <td>Sunday:</td> 
-                        <td>11AM-9PM</td> 
+                        <td>11:00AM-7PM</td> 
                     </tr>
                 </table>
             </div>
         </md-card-content>
     </md-card>
-    <md-card flex="40" style="margin-left: 1.5em; margin-right: 20em;">
-        <md-card-title> {{ 'Packages' | uppercase }}</md-card-title>
-        <md-card-content>
-            <p>This is supporting text.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+    <md-card flex="30" style="margin-left: 1.5em; margin-right: 20em;">
+        <md-card-title> {{ 'Package' | uppercase }}</md-card-title>
+        <md-card-content class="text-center" style="padding-left: 0em; padding-right: 0em;">
+            <h3 style="margin-top: 3em;">$250 for 5 sessions</h3>
+            <h5 style="padding-left: 4em; font-style: italic; opacity: 0.8; margin-top: 0.5em;">*60 minutes/session</h5>
+
         </md-card-content>
 
 
@@ -108,7 +129,7 @@
         (778)-859-4192
     <p>
     <p class="desc">
-        2760 W Broadway, Vancouver, BC, V6K 4M2
+       #207-2760 W.Broadway, Van, B.C, V6K 4M2 (Across Safeway)
     </p>
 
 </div>

@@ -22,4 +22,12 @@ export class ServicesComponent implements OnInit {
         this.isOpened = isOpened;
         console.warn(this.isOpened);
     }
+
+    public getColorByDayOfWeek( day: number ) {
+        let date: Date = new Date();
+        if(date.getDay() == day) {
+            return "yellow"
+        }
+        return "";
+    }
 }
